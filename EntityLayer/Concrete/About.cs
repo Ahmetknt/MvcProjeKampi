@@ -19,6 +19,7 @@ namespace EntityLayer.Concrete
         public string AboutImage1 { get; set; }
         [StringLength(500)]
         public string AboutImage2 { get; set; }
+        //deneme 1 2 3
 
     }
 }
