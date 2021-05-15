@@ -66,7 +66,7 @@
     <Compile Include="EntityFramework\EfCategoryDal.cs" />
     <Compile Include="EntityFramework\EfContactDal.cs" />
     <Compile Include="EntityFramework\EfContentDal.cs" />
-    <Compile Include="EntityFramework\EfHeafingDal.cs" />
+    <Compile Include="EntityFramework\EfHeadingDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
     <Compile Include="Migrations\202104161230300_mig1.cs" />
     <Compile Include="Migrations\202104161230300_mig1.designer.cs">
@@ -75,6 +75,10 @@
     <Compile Include="Migrations\202105111106172_mig2.cs" />
     <Compile Include="Migrations\202105111106172_mig2.designer.cs">
       <DependentUpon>202105111106172_mig2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105151203308_mig_writer_edit.cs" />
+    <Compile Include="Migrations\202105151203308_mig_writer_edit.designer.cs">
+      <DependentUpon>202105151203308_mig_writer_edit.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202105111106172_mig2.resx">
       <DependentUpon>202105111106172_mig2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105151203308_mig_writer_edit.resx">
+      <DependentUpon>202105151203308_mig_writer_edit.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
