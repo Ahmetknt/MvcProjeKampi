@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>İstatistikler</h2>
+<br />
+<div class="col-md-12">
+    <div class="info-box">
+        <span class="info-box-icon bg-gradient-red">
+            <i class="far fa-envelope"></i>
+        </span>
+        <div class="info-box-content">
+            <span class="info-box-content"> <b>1-) Toplam Kategori Sayısı </b> </span>
+            <span class="info-box-icon">@ViewBag.q1</span>
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="info-box">
+        <span class="info-box-icon bg-gradient-yellow"><i class="far fa-envelope"></i></span>
+        <div class="info-box-content">
+            <span class="info-box-content"> <b>2-) Başlık Tablosunda "Yazılım" Kategorisine Ait Başlık Sayısı </b> </span>
+            <span class="info-box-icon">@ViewBag.q2</span>
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="info-box">
+        <span class="info-box-icon bg-gradient-blue"><i class="far fa-envelope"></i></span>
+        <div class="info-box-content">
+            <span class="info-box-content"> <b>3-) Yazar Adında "A" Harfi Geçen Yazar Sayısı</b> </span>
+            <span class="info-box-icon">@ViewBag.q3</span>
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="info-box">
+        <span class="info-box-icon bg-gradient-green"><i class="far fa-envelope"></i></span>
+        <div class="info-box-content">
+            <span class="info-box-content"> <b>4-) En Fazla Başlığa Sahip Kategori Adı </b> </span>
+            <span class="info-box-icon">@ViewBag.q4</span>
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="info-box">
+        <span class="info-box-icon bg-gradient-indigo"><i class="far fa-envelope"></i></span>
+        <div class="info-box-content">
+            <span class="info-box-content"> <b>5-) Kategori Tablosunda Durumu True Olan Kategoriler İle False Olan Kategoriler Arasındaki Sayısal Fark</b> </span>
+            <span class="info-box-icon">@ViewBag.q5</span>
+        </div>
+    </div>
+</div>
+
+
