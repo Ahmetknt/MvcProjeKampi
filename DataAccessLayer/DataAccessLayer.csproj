@@ -84,6 +84,14 @@
     <Compile Include="Migrations\202105190815434_mig_writertitle_add.designer.cs">
       <DependentUpon>202105190815434_mig_writertitle_add.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105230851219_writer_image_update.cs" />
+    <Compile Include="Migrations\202105230851219_writer_image_update.designer.cs">
+      <DependentUpon>202105230851219_writer_image_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105230914541_writer_status_insert.cs" />
+    <Compile Include="Migrations\202105230914541_writer_status_insert.designer.cs">
+      <DependentUpon>202105230914541_writer_status_insert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -109,6 +117,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202105190815434_mig_writertitle_add.resx">
       <DependentUpon>202105190815434_mig_writertitle_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105230851219_writer_image_update.resx">
+      <DependentUpon>202105230851219_writer_image_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105230914541_writer_status_insert.resx">
+      <DependentUpon>202105230914541_writer_status_insert.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
