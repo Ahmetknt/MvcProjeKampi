@@ -92,6 +92,14 @@
     <Compile Include="Migrations\202105230914541_writer_status_insert.designer.cs">
       <DependentUpon>202105230914541_writer_status_insert.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105291024492_mig_contents_status_add.cs" />
+    <Compile Include="Migrations\202105291024492_mig_contents_status_add.designer.cs">
+      <DependentUpon>202105291024492_mig_contents_status_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105291028270_mig4.cs" />
+    <Compile Include="Migrations\202105291028270_mig4.designer.cs">
+      <DependentUpon>202105291028270_mig4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -123,6 +131,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202105230914541_writer_status_insert.resx">
       <DependentUpon>202105230914541_writer_status_insert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105291024492_mig_contents_status_add.resx">
+      <DependentUpon>202105291024492_mig_contents_status_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105291028270_mig4.resx">
+      <DependentUpon>202105291028270_mig4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
